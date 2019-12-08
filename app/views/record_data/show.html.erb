@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @record_datum.user %>
+</p>
+
+<p>
+  <strong>Post:</strong>
+  <%= @record_datum.post %>
+</p>
+
+<p>
+  <strong>Upvotes:</strong>
+  <%= @record_datum.upvotes %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @record_datum.date %>
+</p>
+
+<p>
+  <strong>Totalviews:</strong>
+  <%= @record_datum.totalViews %>
+</p>
+
+<%= link_to 'Edit', edit_record_datum_path(@record_datum) %> |
+<%= link_to 'Back', record_data_path %>

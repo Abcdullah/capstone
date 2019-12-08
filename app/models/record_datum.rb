@@ -1,0 +1,2 @@
+class RecordDatum < ApplicationRecord
+end
